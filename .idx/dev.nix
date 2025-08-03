@@ -5,8 +5,7 @@
   channel = "stable-25.05"; # or "unstable"
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.cargo
-    pkgs.rustc
+    pkgs.rustup
     pkgs.rustfmt
     pkgs.stdenv.cc
 
