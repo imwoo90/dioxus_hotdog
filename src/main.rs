@@ -13,6 +13,8 @@ fn App() -> Element {
             class: "h-screen flex flex-col",
             div {
                 class: "navbar bg-base-100",
+                width: "95%",
+                margin: "auto",
                 div {
                     class: "flex-1",
                     a {
